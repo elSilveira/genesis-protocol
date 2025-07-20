@@ -3,7 +3,7 @@
 > 🧬 The first protocol for digital life - creating, evolving, and networking living digital organisms
 
 [![Crates.io](https://img.shields.io/crates/v/genesis-protocol)](https://crates.io/crates/genesis-protocol)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT with Community Protection](https://img.shields.io/badge/License-MIT%20with%20Community%20Protection-yellow.svg)](LICENSE)
 [![Rust](https://img.shields.io/badge/rust-stable-brightgreen.svg)](https://www.rust-lang.org)
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org)
 [![Documentation](https://img.shields.io/badge/docs-latest-brightgreen.svg)](https://genesis-protocol.org)
@@ -215,7 +215,9 @@ cargo run --example first_birth
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License with Community Protection Clause** - see the [LICENSE](LICENSE) file for details.
+
+This license ensures that Genesis Protocol remains forever free, open, and controlled by the community that builds and uses it. It includes specific protections against corporate control and guarantees perpetual open source commitment.
 
 ## Acknowledgments
 

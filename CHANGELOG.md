@@ -12,6 +12,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated all documentation links to point to new repository
 - Updated contact information to use genesis-protocol.org domain
 - Updated email addresses to contact@genesis-protocol.org
+- **BREAKING**: Changed license from MIT to MIT with Community Protection Clause
+  - Added comprehensive corporate control prohibition
+  - Added perpetual open source commitment
+  - Added community governance requirements
+  - Added anti-acquisition protections
+  - Ensures project remains forever community-controlled
 
 ### Fixed
 - Repository links in all documentation files

@@ -1,6 +1,6 @@
-MIT License
+MIT License with Community Protection Clause
 
-Copyright (c) 2024 Genesis Protocol
+Copyright (c) 2024 Genesis Protocol Community
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -18,4 +18,51 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE. 
+SOFTWARE.
+
+ADDITIONAL COMMUNITY PROTECTION TERMS:
+
+1. CORPORATE CONTROL PROHIBITION:
+   - This software and its associated intellectual property shall never be 
+     controlled, owned, or dominated by any single corporation, company, or 
+     commercial entity.
+   - No single entity shall have the power to unilaterally change the license, 
+     direction, or fundamental principles of this project.
+   - The project shall remain under community governance and control.
+
+2. OPEN SOURCE COMMITMENT:
+   - This software shall always remain open source and freely available to all.
+   - Any derivative works must also be open source and maintain the same 
+     community protection terms.
+   - The source code shall never be made proprietary or closed source.
+
+3. COMMUNITY GOVERNANCE:
+   - Major decisions regarding the project's direction, licensing, and 
+     fundamental changes must be made through community consensus.
+   - The project shall be governed by its contributors and users, not by 
+     any single commercial interest.
+   - All significant changes to governance or licensing require community 
+     approval through transparent processes.
+
+4. ANTI-ACQUISITION CLAUSE:
+   - If any attempt is made to acquire, control, or commercialize this 
+     project in a way that violates these community protection terms, 
+     the community reserves the right to fork the project and continue 
+     development under these same protective terms.
+   - Any such fork shall inherit all rights and protections outlined herein.
+
+5. PERPETUAL COMMUNITY RIGHTS:
+   - These community protection terms are perpetual and cannot be 
+     unilaterally modified or removed.
+   - They apply to all current and future versions of this software.
+   - Any attempt to circumvent these terms shall be considered a 
+     violation of the license.
+
+6. ENFORCEMENT:
+   - The Genesis Protocol community shall have the right to enforce 
+     these terms through legal means if necessary.
+   - Violations of these community protection terms may result in 
+     license termination for the violating party.
+
+This license ensures that Genesis Protocol remains forever free, open, 
+and controlled by the community that builds and uses it. 

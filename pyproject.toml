@@ -9,7 +9,7 @@ description = "🧬 The first protocol for digital life - creating, evolving, an
 authors = [
     {name = "Eduardo Luiz da Silveira", email = "eduardoluizsilveira@gmail.org"}
 ]
-license = {text = "MIT"}
+license = {text = "MIT WITH Community-Protection-Clause"}
 readme = "README.md"
 requires-python = ">=3.8"
 keywords = ["digital-life", "neural", "biological", "evolution", "tron", "consciousness", "ai"]
