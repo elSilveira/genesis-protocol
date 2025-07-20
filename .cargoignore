@@ -1,8 +1,11 @@
 # Genesis Protocol .cargoignore
 
+# Rust build artifacts
+target/
+Cargo.lock
+
 # Python virtual environment
 .venv/
-.venv_backup/
 venv/
 env/
 
@@ -14,11 +17,6 @@ __pycache__/
 *.egg-info/
 dist/
 build/
-
-# Rust build artifacts
-target/
-target_backup/
-Cargo.lock
 
 # Development and documentation files
 deployment-archive/
