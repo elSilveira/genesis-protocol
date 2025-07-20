@@ -8,7 +8,7 @@ repository = "https://github.com/genesis-protocol/core"
 homepage = "https://genesis-protocol.org"
 documentation = "https://docs.genesis-protocol.org"
 readme = "README.md"
-keywords = ["digital-life", "neural", "biological", "evolution", "tron", "consciousness", "ai"]
+keywords = ["digital-life", "neural", "evolution", "tron", "ai"]
 categories = ["science", "network-programming", "artificial-intelligence", "simulation"]
 authors = ["Genesis Protocol Team <team@genesis-protocol.org>"]
 
