@@ -187,7 +187,7 @@ for generation in 0..100 {
 - **📖 Documentation**: [https://genesis-protocol.org](https://genesis-protocol.org)
 - **💬 Discussions**: [GitHub Discussions](https://github.com/genesis-protocol/core/discussions)
 - **🐛 Issues**: [Bug Reports](https://github.com/genesis-protocol/core/issues)
-- **📧 Email**: team@genesis-protocol.org
+- **📧 Contact**: [contact@genesis-protocol.org](mailto:contact@genesis-protocol.org)
 
 ## Contributing
 
@@ -228,4 +228,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Genesis Protocol** - Creating the future of digital life, one organism at a time. 🧬
 
-[Get Started](https://genesis-protocol.org/getting-started) • [View on GitHub](https://github.com/genesis-protocol/core) • [Documentation](https://genesis-protocol.org)
+[Get Started](https://genesis-protocol.org/getting-started) • [View on GitHub](https://github.com/genesis-protocol/core) • [Documentation](https://genesis-protocol.org) • [Contact](mailto:contact@genesis-protocol.org)

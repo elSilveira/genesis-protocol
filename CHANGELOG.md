@@ -140,7 +140,7 @@ For support and questions:
 - **Documentation**: [https://genesis-protocol.org](https://genesis-protocol.org)
 - **GitHub Issues**: [https://github.com/genesis-protocol/core/issues](https://github.com/genesis-protocol/core/issues)
 - **Discussions**: [https://github.com/genesis-protocol/core/discussions](https://github.com/genesis-protocol/core/discussions)
-- **Email**: team@genesis-protocol.org
+- **Email**: [contact@genesis-protocol.org](mailto:contact@genesis-protocol.org)
 
 ---
 
