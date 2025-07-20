@@ -41,6 +41,9 @@ coverage/
 # Node and npm (if used)
 /node_modules/
 
+# Development and documentation files (archived)
+deployment-archive/
+
 # Misc
 *.bak
 *.old
