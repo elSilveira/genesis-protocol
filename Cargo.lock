@@ -596,7 +596,7 @@ dependencies = [
 
 [[package]]
 name = "genesis-protocol"
-version = "0.1.1"
+version = "0.2.1"
 dependencies = [
  "aes",
  "anyhow",
@@ -1049,9 +1049,6 @@ name = "neon-build"
 version = "0.10.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8bac98a702e71804af3dacfde41edde4a16076a7bbe889ae61e56e18c5b1c811"
-dependencies = [
- "neon-sys",
-]
 
 [[package]]
 name = "neon-runtime"
@@ -1060,18 +1057,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "4676720fa8bb32c64c3d9f49c47a47289239ec46b4bdb66d0913cc512cb0daca"
 dependencies = [
  "cfg-if 1.0.1",
- "neon-sys",
  "smallvec",
-]
-
-[[package]]
-name = "neon-sys"
-version = "0.10.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a5ebc923308ac557184455b4aaa749470554cbac70eb4daa8b18cdc16bef7df6"
-dependencies = [
- "cc",
- "regex",
 ]
 
 [[package]]
