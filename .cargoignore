@@ -20,6 +20,7 @@ build/
 
 # Development and documentation files
 deployment-archive/
+DEPLOYMENT_README.md
 *.md
 !README.md
 !LICENSE
@@ -27,6 +28,7 @@ deployment-archive/
 
 # Temporary and backup files
 *.orig
+Cargo.toml.orig
 *.tmp
 *.bak
 *.old
