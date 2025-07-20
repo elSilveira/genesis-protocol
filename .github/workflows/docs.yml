@@ -1,0 +1,66 @@
+name: Deploy Documentation
+
+on:
+  push:
+    branches: [ main ]
+    paths: [ 'docs/**', '.github/workflows/docs.yml' ]
+  pull_request:
+    branches: [ main ]
+    paths: [ 'docs/**', '.github/workflows/docs.yml' ]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: |
+          npm install -g docsify-cli
+          npm install -g @docsifyjs/docsify
+
+      - name: Build documentation
+        run: |
+          mkdir -p docs/_sidebar.md
+          echo "- [Home](/)" > docs/_sidebar.md
+          echo "- [Getting Started](getting-started.md)" >> docs/_sidebar.md
+          echo "- [API Reference](api-reference.md)" >> docs/_sidebar.md
+          echo "- [Examples](examples.md)" >> docs/_sidebar.md
+          echo "- [Architecture](architecture.md)" >> docs/_sidebar.md
+          echo "- [Contributing](contributing.md)" >> docs/_sidebar.md
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './docs'
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4 
