@@ -4,7 +4,7 @@ build-backend = "maturin"
 
 [project]
 name = "genesis-protocol"
-version = "0.1.0"
+version = "0.1.1"
 description = "🧬 The first protocol for digital life - creating, evolving, and networking living digital organisms"
 authors = [
     {name = "Eduardo Luiz da Silveira", email = "eduardoluizsilveira@gmail.org"}

@@ -185,8 +185,8 @@ for generation in 0..100 {
 ## Getting Help
 
 - **📖 Documentation**: [https://genesis-protocol.org](https://genesis-protocol.org)
-- **💬 Discussions**: [GitHub Discussions](https://github.com/genesis-protocol/core/discussions)
-- **🐛 Issues**: [Bug Reports](https://github.com/genesis-protocol/core/issues)
+- **💬 Discussions**: [GitHub Discussions](https://github.com/elSilveira/genesis-protocol/discussions)
+- **🐛 Issues**: [Bug Reports](https://github.com/elSilveira/genesis-protocol/issues)
 - **📧 Contact**: [contact@genesis-protocol.org](mailto:contact@genesis-protocol.org)
 
 ## Contributing
@@ -197,7 +197,7 @@ We welcome contributions! Please see our [Contributing Guide](https://genesis-pr
 
 ```bash
 # Clone the repository
-git clone https://github.com/genesis-protocol/core.git
+git clone https://github.com/elSilveira/genesis-protocol.git
 cd genesis-protocol
 
 # Install Rust
@@ -228,4 +228,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Genesis Protocol** - Creating the future of digital life, one organism at a time. 🧬
 
-[Get Started](https://genesis-protocol.org/getting-started) • [View on GitHub](https://github.com/genesis-protocol/core) • [Documentation](https://genesis-protocol.org) • [Contact](mailto:contact@genesis-protocol.org)
+[Get Started](https://genesis-protocol.org/getting-started) • [View on GitHub](https://github.com/elSilveira/genesis-protocol) • [Documentation](https://genesis-protocol.org) • [Contact](mailto:contact@genesis-protocol.org)

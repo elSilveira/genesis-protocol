@@ -5,6 +5,19 @@ All notable changes to Genesis Protocol will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.1] - 2024-01-20
+
+### Changed
+- Updated GitHub repository URL to https://github.com/elSilveira/genesis-protocol
+- Updated all documentation links to point to new repository
+- Updated contact information to use genesis-protocol.org domain
+- Updated email addresses to contact@genesis-protocol.org
+
+### Fixed
+- Repository links in all documentation files
+- GitHub repository references in Cargo.toml and pyproject.toml
+- Documentation navigation and sidebar links
+
 ## [Unreleased]
 
 ### Added
@@ -138,8 +151,8 @@ pip install genesis-protocol
 
 For support and questions:
 - **Documentation**: [https://genesis-protocol.org](https://genesis-protocol.org)
-- **GitHub Issues**: [https://github.com/genesis-protocol/core/issues](https://github.com/genesis-protocol/core/issues)
-- **Discussions**: [https://github.com/genesis-protocol/core/discussions](https://github.com/genesis-protocol/core/discussions)
+- **GitHub Issues**: [https://github.com/elSilveira/genesis-protocol/issues](https://github.com/elSilveira/genesis-protocol/issues)
+- **Discussions**: [https://github.com/elSilveira/genesis-protocol/discussions](https://github.com/elSilveira/genesis-protocol/discussions)
 - **Email**: [contact@genesis-protocol.org](mailto:contact@genesis-protocol.org)
 
 ---
