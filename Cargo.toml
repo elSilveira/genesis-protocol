@@ -1,9 +1,9 @@
 [package]
 name = "genesis-protocol"
-version = "0.2.1"
+version = "0.2.2"
 edition = "2021"
 description = "🧬 The first protocol for digital life - creating, evolving, and networking living digital organisms"
-license = "MIT WITH Community-Protection-Clause"
+license-file = "LICENSE"
 repository = "https://github.com/elSilveira/genesis-protocol"
 homepage = "https://genesis-protocol.org"
 documentation = "https://docs.genesis-protocol.org"

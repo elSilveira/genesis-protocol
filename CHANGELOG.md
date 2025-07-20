@@ -24,6 +24,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - GitHub repository references in Cargo.toml and pyproject.toml
 - Documentation navigation and sidebar links
 
+## [0.2.2] - 2024-01-20
+
+### Fixed
+- Fixed crates.io license validation by using license-file instead of custom license expression
+- Resolved docs.rs build issues by disabling all-features for documentation generation
+- Configured docs.rs to only use tokio-runtime feature to avoid Node.js dependencies
+- Disabled default features for neon dependency to prevent build failures
+
 ## [0.2.1] - 2024-01-20
 
 ### Fixed
