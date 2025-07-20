@@ -24,9 +24,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - GitHub repository references in Cargo.toml and pyproject.toml
 - Documentation navigation and sidebar links
 
-## [Unreleased]
+## [0.2.0] - 2024-01-20
 
 ### Added
+- **BREAKING**: Community Protection License implementation
+  - Comprehensive corporate control prohibition
+  - Perpetual open source commitment
+  - Community governance requirements
+  - Anti-acquisition protections
+  - Legal enforcement mechanisms
 - Comprehensive documentation structure
 - GitHub Pages deployment workflow
 - Professional documentation with Docsify
@@ -36,9 +42,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Examples and tutorials
 
 ### Changed
+- **BREAKING**: License changed from MIT to MIT with Community Protection Clause
 - Optimized package structure for crates.io publication
 - Reduced package size from 47.9MB to 14.1MB
 - Updated keywords and categories for crates.io compliance
+- Updated all license references in documentation
 
 ### Fixed
 - Package size issues for crates.io publication
