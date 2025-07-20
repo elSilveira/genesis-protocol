@@ -69,13 +69,13 @@ tempfile = "3.0"
 # Benchmarks will be added in future versions
 
 # Examples and binary tools will be added in future versions
-[[example]]
-name = "test_protocol"
-path = "examples/test_protocol.rs"
+# [[example]]
+# name = "test_protocol"
+# path = "examples/test_protocol.rs"
 
-[[example]]
-name = "performance_demo"
-path = "examples/performance_demo.rs"
+# [[example]]
+# name = "performance_demo"
+# path = "examples/performance_demo.rs"
 
 # Feature flags
 [features]

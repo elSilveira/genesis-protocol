@@ -22,6 +22,16 @@ build/
 deployment-archive/
 *.md
 !README.md
+!LICENSE
+!CHANGELOG.md
+
+# Temporary and backup files
+*.orig
+*.tmp
+*.bak
+*.old
+*.swp
+*.swo
 
 # IDE and editor files
 .vscode/
