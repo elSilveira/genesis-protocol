@@ -1,0 +1,53 @@
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "genesis-protocol"
+version = "0.1.0"
+description = "🧬 The first protocol for digital life - creating, evolving, and networking living digital organisms"
+authors = [
+    {name = "Eduardo Luiz da Silveira", email = "eduardoluizsilveira@gmail.org"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["digital-life", "neural", "biological", "evolution", "tron", "consciousness", "ai"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.urls]
+Homepage = "https://genesis-protocol.org"
+Repository = "https://github.com/genesis-protocol/core"
+Documentation = "https://docs.genesis-protocol.org"
+
+[tool.maturin]
+features = ["pyo3/extension-module", "python-bindings"]
+python-source = "python"
+module-name = "genesis_protocol"
+strip = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3 

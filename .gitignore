@@ -1,0 +1,46 @@
+# Genesis Protocol .gitignore
+
+# Rust build artifacts
+/target/
+/Cargo.lock
+
+# Python build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# VSCode settings
+.vscode/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# BitNet CLI artifacts
+.bitnet-cli-cache/
+.bitnet-cli-tmp/
+
+# Documentation output
+docs/
+doc/
+
+# Coverage and test reports
+coverage/
+*.profraw
+*.profdata
+
+# Node and npm (if used)
+/node_modules/
+
+# Misc
+*.bak
+*.old

@@ -1,0 +1,168 @@
+[package]
+name = "genesis-protocol"
+version = "0.1.0"
+edition = "2021"
+description = "🧬 The first protocol for digital life - creating, evolving, and networking living digital organisms"
+license = "MIT"
+repository = "https://github.com/genesis-protocol/core"
+homepage = "https://genesis-protocol.org"
+documentation = "https://docs.genesis-protocol.org"
+readme = "README.md"
+keywords = ["digital-life", "neural", "biological", "evolution", "tron", "consciousness", "ai"]
+categories = ["science", "network-programming", "artificial-intelligence", "simulation"]
+authors = ["Genesis Protocol Team <team@genesis-protocol.org>"]
+
+[lib]
+name = "genesis_protocol"
+crate-type = ["cdylib", "rlib"]
+
+# Note: Simplified single-package structure for initial implementation
+# Future versions may expand to workspace structure
+
+[dependencies]
+# Core Rust dependencies
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.0", features = ["full"] }
+uuid = { version = "1.0", features = ["v4", "serde"] }
+anyhow = "1.0"
+thiserror = "1.0"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+
+# Cryptography for Digital DNA
+ed25519-dalek = "2.0"
+sha2 = "0.10"
+hmac = "0.12"
+aes = "0.8"
+rand = { version = "0.8", features = ["std_rng"] }
+rand_distr = "0.4"
+
+# Neural networking
+tokio-tungstenite = "0.20"
+futures-util = "0.3"
+async-trait = "0.1"
+
+# Mathematical operations for evolution
+ndarray = "0.15"
+ndarray-rand = "0.14"
+
+# Serialization and time
+chrono = { version = "0.4", features = ["serde"] }
+bincode = "1.3"
+
+# Optional language bindings
+pyo3 = { version = "0.19", features = ["extension-module"], optional = true }
+wasm-bindgen = { version = "0.2", optional = true }
+wasm-bindgen-futures = { version = "0.4", optional = true }
+js-sys = { version = "0.3", optional = true }
+web-sys = { version = "0.3", optional = true }
+neon = { version = "0.10", optional = true }
+
+# Development and testing
+[dev-dependencies]
+tokio-test = "0.4"
+criterion = { version = "0.5", features = ["html_reports"] }
+proptest = "1.0"
+tempfile = "3.0"
+
+# Benchmarks will be added in future versions
+
+# Examples and binary tools will be added in future versions
+[[example]]
+name = "test_protocol"
+path = "examples/test_protocol.rs"
+
+[[example]]
+name = "performance_demo"
+path = "examples/performance_demo.rs"
+
+# Feature flags
+[features]
+default = ["tokio-runtime"]
+
+# Language bindings
+python-bindings = ["pyo3"]
+wasm-bindings = ["wasm-bindgen", "wasm-bindgen-futures", "js-sys", "web-sys"]
+node-bindings = ["neon"]
+
+# Runtime options
+tokio-runtime = ["tokio/rt-multi-thread"]
+single-threaded = ["tokio/rt"]
+
+# Performance optimizations
+simd = ["ndarray/blas"]
+parallel = ["ndarray/rayon"]
+
+# Experimental features
+quantum = []          # Quantum-resistant cryptography
+consciousness = []    # Advanced consciousness simulation
+telepathy = []        # Direct organism-to-organism communication
+
+# Development features
+debug-neural = []     # Enhanced neural debugging
+evolution-stats = []  # Detailed evolution statistics
+memory-profiling = [] # Memory usage profiling
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+
+[profile.bench]
+opt-level = 3
+debug = true
+
+[profile.dev]
+opt-level = 0
+debug = true
+split-debuginfo = "unpacked"
+
+# Platform-specific dependencies
+[target.'cfg(unix)'.dependencies]
+libc = "0.2"
+
+[target.'cfg(windows)'.dependencies]
+winapi = { version = "0.3", features = ["processthreadsapi"] }
+
+[target.'cfg(target_arch = "wasm32")'.dependencies]
+wasm-bindgen = "0.2"
+console_error_panic_hook = "0.1"
+wee_alloc = "0.4"
+
+# Package metadata
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docsrs"]
+
+[package.metadata.release]
+sign-commit = true
+sign-tag = true
+publish = true
+pre-release-commit-message = "Release version {{version}}"
+tag-message = "Release version {{version}}"
+
+# Cargo config for better build experience
+[package.metadata.cargo-machete]
+ignored = ["criterion"]  # Keep criterion for benchmarks
+
+# Integration with existing BitNet systems
+[patch.crates-io]
+# If we need to patch any existing BitNet dependencies
+# bitnet-core = { path = "../bitnet-core" }
+
+# Workspace configuration
+[workspace.dependencies]
+serde = { version = "1.0", features = ["derive"] }
+tokio = { version = "1.0", features = ["full"] }
+anyhow = "1.0"
+thiserror = "1.0"
+
+[workspace.metadata.release]
+consolidate-commits = true
+pre-release-commit-message = "chore: Release"
+pre-release-replacements = [
+  {file="CHANGELOG.md", search="Unreleased", replace="{{version}}"},
+  {file="README.md", search="genesis-protocol = \"[^\"]*\"", replace="genesis-protocol = \"{{version}}\""},
+] 
