@@ -9,7 +9,7 @@ homepage = "https://genesis-protocol.org"
 documentation = "https://docs.genesis-protocol.org"
 readme = "README.md"
 keywords = ["digital-life", "neural", "evolution", "tron", "ai"]
-categories = ["science", "network-programming", "artificial-intelligence", "simulation"]
+categories = ["science", "network-programming", "simulation"]
 authors = ["Genesis Protocol Team <team@genesis-protocol.org>"]
 
 [lib]
